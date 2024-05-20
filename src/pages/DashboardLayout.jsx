@@ -7,7 +7,7 @@ const DashboardContext = createContext();
 
 const DashboardLayout = () => {
   //temporary
-  const user = { name: Marco };
+  const user = { name: "Marco" };
   const [showSidebar, setShowSidebar] = useState(false);
   const [isDarkTheme, setIsDarkTheme] = useState(false);
 
